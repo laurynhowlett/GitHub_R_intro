@@ -7,3 +7,8 @@ packageLoad <-
       library(x[i], character.only = TRUE)
     }
   }
+# create a string of package names
+packages <- c('tidyverse',
+              'palmerpenguins')
+
+packageLoad(packages) 
