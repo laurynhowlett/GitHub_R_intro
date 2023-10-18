@@ -9,6 +9,7 @@ packageLoad <-
   }
 # create a string of package names
 packages <- c('tidyverse',
-              'palmerpenguins')
+              'palmerpenguins',
+              'lterdatasampler')
 
 packageLoad(packages) 
